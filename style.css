@@ -1,0 +1,354 @@
+
+*
+{
+padding: 0;
+margin:0 auto;
+
+}
+
+
+h1 {
+color: #f14b5c; 
+font-size: 24px;   /* orange */ 
+font-style: italic;
+
+}
+
+
+p {
+
+color: #f14b5c;    
+font-size: 18px;
+
+}
+
+p.definicja, b.definicja {
+color: #CD853F;
+
+
+
+}
+
+
+.definicja {
+
+font-size: 16px;
+	float: left; 
+	display:inline;
+	margin-left: 10px;
+	margin-right: 10px;
+-webkit column-count: 3;
+column-gap: 20px; /*odstep pomiedzy*/
+
+
+
+}
+
+h2#color{
+color: #f14b5c;
+font-size: 24px;
+
+}
+
+span {
+color: #CD853F;
+
+
+}
+
+div {
+color: #CD853F;
+
+
+}
+
+
+ ul.list {
+    list-style: none;
+  }
+  
+  
+  a{
+  
+  color: #CD853F; 
+  text-decoration: none;
+  font:  bold 12pt Arial;
+  border-bottom: 1px dotted gray;
+
+  
+  }
+  
+  
+  
+  
+ #header {
+ 
+ border: 1px solid #DAA520;
+ height: 350px;
+ width: 1004px;
+ margin:0 auto;
+ position: relative;
+ 
+ 
+ }
+ 
+ #header a {
+ border-bottom: 0px;
+ 
+ }
+ 
+ div#location{
+ border: 1px solid #DAA520;
+ width: 1004px;
+ }
+ 
+ #image{
+ 
+ width: 1004px;
+ border: 
+ 
+ }
+ 
+ #rooms {
+ 
+ border: 1px solid #DAA520;
+ width: 1004px;
+ height: 260px;
+ 
+ }
+ 
+ #contact {
+ 
+  border: 1px solid #DAA520;
+  width: 1004px;
+  font-family: Helvetica;
+  padding-bottom: 10px;
+ 
+ }
+ 
+ #contact a{
+ 
+ border-bottom: 0px;
+ 
+ }
+ 
+ 
+ img.Logo {
+ 
+ position: absolute;
+ }
+ 
+ 
+ a:hover {
+ 
+ color: #f14b5c;
+ }
+ 
+ #menu {
+ 
+ position: absolute;
+ left: 50px;
+ bottom: 5px;
+ text-align: center;
+ 
+ 
+ }
+ 
+ 
+ #wlasciwe_menu li
+ {
+ 
+ list-style-type: none;     /* brak wypunktowania*/
+ display: inline-block;
+ padding-left: 30px;
+
+
+ 
+ }
+ 
+ 
+ 
+ #wlasciwe_menu li a
+ {
+ 
+ height: 31px; 
+ display: inline-block;
+ float: left;
+ border-bottom: none;
+ padding: 0px 25px;
+ font-family: Arial;
+ margin-bottom: 20px;
+ 
+ 
+ 
+ 
+ }
+ 
+ #wlasciwe_menu a:hover {
+
+background-color: #f14b5c;
+display: block;
+padding-bottom: 15px;
+color:#FFF;
+
+}
+
+
+
+ 
+ 
+ span.link 
+ {
+ display: inline-block;
+ margin-top: 20px;
+ bottom: -1px;
+ 
+ 
+ }
+ 
+ /*ZAWARTOSC STRONY */
+ 
+ #content {
+ 
+ width: 1004px;
+ 
+ }
+ 
+ #gorna_zawartosc {
+ 
+ background-image: url('images/gorna.png');
+ width: 1004px;
+ height: 20px;
+ }
+ 
+ #srodkowa_czesc_zawartosci{
+ 
+ background-image: url('images/site.png');
+ width: 1004px;
+ height: 620px;
+ background-repeat: repeat-y repeat-x;
+ 
+ 
+ }
+ 
+ #dolna_czesc {
+ background-image: url('images/site.png');
+  width: 1004px;
+ height: 210px;
+ background-repeat: repeat-y repeat-x;
+ }
+ 
+ hr {
+ 
+color: black;
+width: 45%;
+height: 2px;
+ 
+ 
+ }
+ 
+ #text 
+ {
+ text-align: center;
+ font-family: Times New Roman;
+ 
+ 
+ }
+ 
+ #rooms {
+ 
+ text-align: justify;
+ 
+ 
+ }
+ 
+ /*#rooms img {
+ 
+ float:left; 
+ margin:6px;
+ opacity: 1;
+ text-align: justify;
+ 
+ 
+ } */
+ 
+.container {
+
+margin:0 auto;
+}
+
+@media (min-width: 1100px) {
+
+.container {width:1050px;}
+
+}
+
+@media (max-width: 1100px) and (min-width: 1000px) {
+
+.container {width:950px;}
+
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+
+.container {width:750px;}
+
+}
+
+@media (max-width: 800px) and (min-width: 500px) {
+
+.container {width:450px;}
+
+}
+
+@media (max-width: 500px) {
+
+.container {width:300px;}
+
+}
+
+
+ .slider {
+ 
+ width: 1004px;
+ height: 318px;
+ position: relative;
+ 
+ 
+ 
+ 
+ }
+ 
+img{
+ max-width: 100%;
+ max-height: 100%;
+ position: absolute;
+ opacity: 0;
+ transition: 1s;
+ 
+ 
+ }
+ 
+ .active {
+ 
+ 
+ opacity: 1;
+ }  
+ 
+ 
+.logo img {
+opacity: 1;
+right: 350px;
+
+
+
+}
+
+.header a {
+
+
+opacity: 1}
+ 
+ 
+
+ 
